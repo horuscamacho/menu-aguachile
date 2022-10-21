@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+body {
+  line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+  display:block;
+}
+
+nav ul {
+  list-style:none;
+}
+
+blockquote, q {
+  quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content:'';
+  content:none;
+}
+
+a {
+  margin:0;
+  padding:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+/* change colours to suit your needs */
+
+ins {
+  background-color:#ff9;
+  color:#000;
+  text-decoration:none;
+}
+
+/* change colours to suit your needs */
+
+mark {
+  background-color:#ff9;
+  color:#000; 
+  font-style:italic;
+  font-weight:bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom:1px dotted;
+  cursor:help;
+}
+
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display:block;
+  height:1px;
+  border:0;   
+  border-top:1px solid #cccccc;
+  margin:1em 0;
+  padding:0;
+}
+
+input, select {
+  vertical-align:middle;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+:root {
+    --orange-color: #ed7204;
+    --blue-color: #231352;
+    --font: 'Manrope', sans-serif;
+}
+
+.root {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.main-container-nav {
+    margin-top: 10px;
+    width: 90%;
+    height: 120px;
+}
+
+.container-nav-top {
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.search-input-container {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-input-container input {
+    width: 85%;
+    border-radius: 12px;
+    height: 50%;
+    border-color: var(--orange-color);
+}
+
+.logo-container {
+    width: 20%;
+    height: 100%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo {
+    width: 45px;
+    height: 45px;
+    background-image: url(./assets/logo.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.container-nav-bottom {
+    width: 100%;
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* .container-nav-item {
+    background-color: #e8b78d;
+    width: 20%;
+    height: 100%;
+    border: solid #231352;
+} */
+
+.active{
+    background: var(--orange-color);
+}
+
+.container-nav-item {
+    width: 19%;
+    margin: 1px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.container-nav-item a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-nav-item i {
+    font-size: 25px;
+    color: var(--blue-color);
+}
+
+.container-nav-item p {
+    font-family: var(--font);
+    font-size: 12px;
+    padding: 2px;
+    text-align: center;
+    color: var(--blue-color);
+}
+
+.main-container-menu {
+    /* background-color: #e5e5e5; */
+    margin-top: 2px;
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    flex-grow: 1;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main-container-promos {
+    margin-top: 10px;
+    width: 95%; 
+    height: 150px; /*17%*/
+    border-radius: 12px;
+    overflow-x: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.promos-cerveza {
+    width: 90%;
+    height: 90%;
+    background-image: url(./assets/promo1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.container-dish {
+    margin-top: 10px;
+    width: 90%;
+    height: 23%;
+    display: flex;
+    border: solid 1px rgb(248, 240, 240);
+    border-radius: 12px;
+    box-shadow: rgb(239, 235, 235) 0 5px ;
+    justify-content: center;
+    align-items: center;
+}
+
+.dish-image {
+    width: 34%;
+    height: 85%;
+    background-image: url(./assets/aguachile.png);
+    border-radius: 12px;
+    background-position: center;
+    background-size: cover;
+}
+
+.dish-info {
+    width: 61%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dish-info-title {
+    height: 30%;
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.dish-info-title h2 {
+    font-family: var(--font);
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.dish-info-description {
+    height: 30%;
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.dish-info-description p{
+    font-size: 15px;
+    font-family: var(--font);
+}
+
+.dish-info-cost {
+    height: 30%;
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.dish-info-cost p {
+    font-size: 13px;
+    font-family: var(--font);
+    font-weight: bolder;
+}
+
+.menu-overflow-container {
+    width: 90%;
+    height: 550px;
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
