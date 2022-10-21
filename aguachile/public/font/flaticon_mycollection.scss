@@ -1,0 +1,45 @@
+$flaticon_mycollection-font: "flaticon_mycollection";
+
+@font-face {
+    font-family: $flaticon_mycollection-font;
+    src: url("./flaticon_mycollection.ttf?f0f6f77c31b40713fd470ca999af6071") format("truetype"),
+url("./flaticon_mycollection.woff?f0f6f77c31b40713fd470ca999af6071") format("woff"),
+url("./flaticon_mycollection.woff2?f0f6f77c31b40713fd470ca999af6071") format("woff2"),
+url("./flaticon_mycollection.eot?f0f6f77c31b40713fd470ca999af6071#iefix") format("embedded-opentype"),
+url("./flaticon_mycollection.svg?f0f6f77c31b40713fd470ca999af6071#flaticon_mycollection") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_mycollection !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_mycollection-map: (
+    "001-shrimp": "\f101",
+    "002-bread": "\f102",
+    "003-beer": "\f103",
+    "004-jelly": "\f104",
+    "005-fire": "\f105",
+);
+
+.flaticon-001-shrimp:before {
+    content: map-get($flaticon_mycollection-map, "001-shrimp");
+}
+.flaticon-002-bread:before {
+    content: map-get($flaticon_mycollection-map, "002-bread");
+}
+.flaticon-003-beer:before {
+    content: map-get($flaticon_mycollection-map, "003-beer");
+}
+.flaticon-004-jelly:before {
+    content: map-get($flaticon_mycollection-map, "004-jelly");
+}
+.flaticon-005-fire:before {
+    content: map-get($flaticon_mycollection-map, "005-fire");
+}
