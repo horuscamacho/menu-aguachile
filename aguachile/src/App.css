@@ -117,9 +117,10 @@ a{
     width: 100vw;
     height: 100vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
 }
 
 .main-container-nav {
@@ -334,4 +335,5 @@ a{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 20px;
 }
