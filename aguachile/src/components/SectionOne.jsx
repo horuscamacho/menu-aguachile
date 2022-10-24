@@ -4,10 +4,10 @@ import ContainerTop from './SectionOneComp/ContainerTop'
 
 const SectionOne = () => {
   return (
-    <section className='main-container-nav'>
+    <section className="main-container-nav">
         <ContainerTop />
         <ContainerBottom />
-    </section>
+      </section>
   )
 }
 
