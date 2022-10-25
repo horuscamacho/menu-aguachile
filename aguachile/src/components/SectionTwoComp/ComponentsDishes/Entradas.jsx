@@ -5,16 +5,17 @@ import { useLocation } from "react-router-dom";
 import AppContext from "../../../context/AppContext";
 
 const Entradas = () => {
-  const { changeRoute } = useContext(AppContext)
-  const location = useLocation()
-  const changingRoute = payload => {
-    changeRoute(payload)
-  }
+  const { changeRoute } = useContext(AppContext);
+  const location = useLocation();
+  const changingRoute = (payload) => {
+    changeRoute(payload);
+  };
   useEffect(() => {
-    changingRoute(location.pathname)
-  },[])
+    changingRoute(location.pathname);
+  }, []);
   return (
     <>
+      <h1>Entradas</h1>
       {entradas.map((el) => (
         <DishesContainer key={el.id} data={el} />
       ))}
