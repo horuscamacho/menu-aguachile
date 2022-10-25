@@ -76,7 +76,7 @@ export const sopas = [
     {
         id:12,
         producto: "Cazuela de Mariscos",
-        descripcion: "pescado, camarón, pulpo",
+        descripcion: "Pescado, camarón, pulpo",
         costo: 185
     }
 ]
@@ -109,7 +109,7 @@ export const tostadas = [
     {
         id: 17,
         producto: "Mitotera (orden de 2)",
-        descripcion: "pescado, camarón, pulpo",
+        descripcion: "Pescado, camarón, pulpo",
         costo: 120
     },
     {
@@ -123,13 +123,13 @@ export const tostadas = [
 export const platillos = [
     {
         id: 19,
-        producto: "camarones empanizados",
+        producto: "Camarones Empanizados",
         descripcion: "",
         costo: 130
     },
     {
         id: 20,
-        producto: "tiras de pescado",
+        producto: "Tiras de Pescado",
         descripcion: "",
         costo: 120
     }
@@ -138,37 +138,37 @@ export const platillos = [
 export const extras = [
     {
         id: 21,
-        producto: "aguacate",
+        producto: "Aguacate",
         descripcion: "",
         costo: 15
     },
     {
         id: 22,
-        producto: "camarón",
+        producto: "Camarón",
         descripcion: "",
         costo: 35
     },
     {
         id: 23,
-        producto: "atún",
+        producto: "Atún",
         descripcion: "",
         costo: 35
     },
     {
         id: 24,
-        producto: "pulpo",
+        producto: "Pulpo",
         descripcion: "",
         costo: 50
     },
     {
         id: 25,
-        producto: "mango",
+        producto: "Mango",
         descripcion: "",
         costo: 5
     },
     {
         id: 26,
-        producto: "salsa jaiba",
+        producto: "Salsa jaiba",
         descripcion: "",
         costo: 35
     }
@@ -177,37 +177,37 @@ export const extras = [
 export const aguachiles = [
     {
         id: 27,
-        producto: "verde",
-        descripcion: "base de serrano y cilantro",
+        producto: "Verde",
+        descripcion: "Base de serrano y cilantro",
         costo: 135
     },
     {
         id: 28,
-        producto: "negro",
-        descripcion: "base salsa negras",
+        producto: "Negro",
+        descripcion: "Base salsa negras",
         costo: 140
     },
     {
         id: 29,
-        producto: "rojo",
-        descripcion: "base chile de árbol",
+        producto: "Rojo",
+        descripcion: "Base chile de árbol",
         costo: 140
     },
     {
         id:30,
-        producto: "tropical",
-        descripcion: "base de piña y habanero",
+        producto: "Tropical",
+        descripcion: "Base de piña y habanero",
         costo: 145
     },
     {
         id: 31,
-        producto: "especial",
-        descripcion: "aguachile negro con mango",
+        producto: "Especial",
+        descripcion: "Aguachile negro con mango",
         costo: 155
     },
     {
         id: 32,
-        producto: "con pulpo",
+        producto: "C don pulpo",
         descripcion: "",
         costo: 50
     }
@@ -216,106 +216,106 @@ export const aguachiles = [
 export const ceviches = [
     {
         id: 33,
-        tipo: "clásico",
-        producto: "de pescado",
+        tipo: "Vlásico",
+        producto: "De pescado",
         descripcion: "",
         costo: 100
     },
     {
         id: 34,
-        tipo: "clásico",
-        producto: "de camarón",
-        descripcion: "cocido ó curtido",
+        tipo: "Clásico",
+        producto: "De camarón",
+        descripcion: "Cocido ó curtido",
         costo: 130
     },
     {
         id: 35,
         tipo: "clásico",
-        producto: "atún",
+        producto: "Atún",
         descripcion: "",
         costo: 150
     },
     {
         id: 36,
         tipo: "clásico",
-        producto: "mitotero",
+        producto: "Mitotero",
         descripcion: "",
         costo: 150
     },
     {
         id: 37,
         tipo: "clásico",
-        producto: "mixto",
+        producto: "Mixto",
         descripcion: "",
         costo: 160
     },
     {
         id: 38,
         tipo: "tropical",
-        producto: "de pescado",
+        producto: "De Pescado",
         descripcion: "",
         costo: 115
     },
     {
         id: 39,
         tipo: "tropical",
-        producto: "de camarón",
+        producto: "De Camarón",
         descripcion: "cocido ó curtido",
         costo: 140
     },
     {
         id: 40,
-        tipo: "tropical",
-        producto: "atún",
+        tipo: "Tropical",
+        producto: "Atún",
         descripcion: "",
         costo: 160
     },
     {
         id: 41,
         tipo: "tropical",
-        producto: "mitotero",
+        producto: "Mitotero",
         descripcion: "",
         costo: 160
     },
     {
         id: 42,
         tipo: "tropical",
-        producto: "mixto",
+        producto: "Mixto",
         descripcion: "",
         costo: 170
     },
     {
         id: 43,
         tipo: "mango",
-        producto: "de pescado",
+        producto: "De Pescado",
         descripcion: "",
         costo: 125
     },
     {
         id: 44,
         tipo: "mango",
-        producto: "de camarón",
-        descripcion: "cocido ó curtido",
+        producto: "De Camarón",
+        descripcion: "Cocido ó curtido",
         costo: 150
     },
     {
         id: 45,
         tipo: "mango",
-        producto: "atún",
+        producto: "Atún",
         descripcion: "",
         costo: 165
     },
     {
         id: 46,
         tipo: "mango",
-        producto: "mitotero",
+        producto: "Mitotero",
         descripcion: "",
         costo: 165
     },
     {
         id: 47,
         tipo: "mango",
-        producto: "mixto",
+        producto: "Mixto",
         descripcion: "",
         costo: 175
     }
@@ -325,21 +325,21 @@ export const ceviches = [
 export const cocteles = [
     {
         id: 48,
-        producto: "camarón",
+        producto: "Camarón",
         descripcion: "",
         costo_med: 80,
         costo_gde: 130
     },
     {
         id: 49,
-        producto: "pulpo",
+        producto: "Pulpo",
         descripcion: "",
         costo_med: 120,
         costo_gde: 185
     },
     {
         id: 50,
-        producto: "mixto",
+        producto: "Mixto",
         descripcion: "",
         costo_med: 100,
         costo_gde: 160
@@ -348,7 +348,7 @@ export const cocteles = [
 
 export const postres = [
     {id: 51,
-    producto: "cheesecake de zarzamora",
+    producto: "Cheesecake de Zarzamora",
     descripcion: "",
     costo: 45}
 ]
@@ -356,85 +356,85 @@ export const postres = [
 export const bebidas = [
     {
         id: 52,
-        producto: "camaronera",
-        descripcion: "cerveza preparada con camarones",
+        producto: "Camaronera",
+        descripcion: "Cerveza preparada con camarones",
         costo: 95
     },
     {
         id: 53,
-        producto: "camaronera premium",
-        descripcion: "cerveza preparada con camarones",
+        producto: "Camaronera Premium",
+        descripcion: "Cerveza preparada con camarones",
         costo: 100
     },
     {
         id: 54,
-        producto: "cerveza",
-        descripcion: "corona, victoria, pacífico",
+        producto: "Cerveza",
+        descripcion: "Corona, Victoria, Pacífico",
         costo: 30
     },
     {
         id: 55,
-        producto: "cerveza premium",
+        producto: "Cerveza Premium",
         descripcion: "Stella, ultra y modelo",
         costo: 35
     },
     {
         id: 56,
-        producto: "vaso chelado",
-        descripcion: "escarchado con sal y limón",
+        producto: "Vaso Chelado",
+        descripcion: "Escarchado con sal y limón",
         costo: 10
     },
     {
         id: 57,
-        producto: "vaso michelado",
-        descripcion: "escarchado con sal, limón y salsas",
+        producto: "Vaso Michelado",
+        descripcion: "Escarchado con sal, limón y salsas",
         costo: 15
     },
     {
         id: 58,
-        producto: "vaso clamato",
-        descripcion: "escarchado con limón, salsas y clamato",
+        producto: "Vaso Clamato",
+        descripcion: "Escarchado con limón, salsas y clamato",
         costo: 25
     },
     {
         id: 59,
-        producto: "clamato natural",
-        descripcion: "vaso de clamato preparado",
+        producto: "Clamato Natural",
+        descripcion: "Vaso de clamato preparado",
         costo: 50
     },
     {
         id: 60,
-        producto: "limonada",
-        descripcion: "natural o mineral",
+        producto: "Limonada",
+        descripcion: "Natural o mineral",
         costo: 35
     },
     {
         id: 61,
-        producto: "agua del día",
+        producto: "Agua del Día",
         descripcion: "",
         costo: 35
     },
     {
         id: 62,
-        producto: "refresco",
+        producto: "Refresco",
         descripcion: "",
         costo: 25
     },
     {
         id: 63,
-        producto: "botella de agua",
+        producto: "Botella de Agua",
         descripcion: "",
         costo: 15
     },
     {
         id: 64,
-        producto: "café",
+        producto: "Café",
         descripcion: "",
         costo: 25
     },
     {
         id: 65,
-        producto: "te",
+        producto: "Te",
         descripcion: "",
         costo: 15
     }
@@ -443,37 +443,37 @@ export const bebidas = [
 export const paquetes = [
     {
         id: 66,
-        producto: "paquete de la casa",
+        producto: "Paquete de la Casa",
         productos_incluye : ["Caldo de camaron", "Tiras de pescado con arroz", "Agua de sabor y postre"],
         costo: 100
     },
     {
         id: 67,
-        producto: "paquete 1",
+        producto: "Paquete 1",
         productos_incluye : ["1 Orden de Pescadillas (4)", "1 Tostada (Pescado, Camarón, ó Atún", "1 Taco (pescado ó camarón)", "1 Bebida (Agua del día, cerveza ó refresco"],
         costo: 150
     },
     {
         id: 68,
-        producto: "paquete 2",
+        producto: "Paquete 2",
         productos_incluye : ["1 Taco (pescado ó camarón)", "1 Aguachile (verde, rojo, negro, tropical ó especial)", "1 Bebida (Agua del día, cerveza ó refresco"],
         costo: 200
     },
     {
         id: 69,
-        producto: "paquete 3",
+        producto: "Paquete 3",
         productos_incluye : ["1 Orden de Pescadillas (4)", "1 Tiras ó camarones empanizados", "1 Aguachile (verde, rojo, negro, tropical ó especial)", "1 Bebida (Agua del día, cerveza ó refresco"],
         costo: 300
     },
     {
         id: 70,
-        producto: "paquete 4",
+        producto: "Paquete 4",
         productos_incluye : ["1 Taco de pescado", "1 Taco de camarón", "1 Ceviche clásico, de mango ó tropical de pescado, camarón ó atún", "1 Aguachile (verde, rojo, negro, tropical ó especial)", "2 Bebidas (Agua del día, cerveza ó refresco"],
         costo: 400
     },
     {
         id: 71,
-        producto: "paquete 5",
+        producto: "Paquete 5",
         productos_incluye : ["1 Orden de Pescadillas (4)", "1 Ceviche clásico, de mango ó tropical de pescado, camarón ó atún", "1 Coctel grande de camarón", "1 Aguachile (verde, rojo, negro, tropical ó especial)", "2 Bebidas (Agua del día, cerveza ó refresco"],
         costo: 500
     },
