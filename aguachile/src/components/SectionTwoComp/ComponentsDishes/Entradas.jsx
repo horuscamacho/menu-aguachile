@@ -1,10 +1,18 @@
-import React from "react";
+import React, { useContext, useEffect } from "react";
 import DishesContainer from "../Dishes/DishesContainer";
 import { entradas } from "../../../data/db";
-
+import { useLocation } from "react-router-dom";
+import AppContext from "../../../context/AppContext";
 
 const Entradas = () => {
-  console.log(entradas);
+  const { changeRoute } = useContext(AppContext)
+  const location = useLocation()
+  const changingRoute = payload => {
+    changeRoute(payload)
+  }
+  useEffect(() => {
+    changingRoute(location.pathname)
+  },[])
   return (
     <>
       {entradas.map((el) => (

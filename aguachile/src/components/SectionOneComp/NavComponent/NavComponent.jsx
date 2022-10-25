@@ -1,25 +1,30 @@
-import React, { useState } from "react";
-
-
+import React, { useContext, useEffect, useState } from "react";
+import AppContext from "../../../context/AppContext";
 
 const NavComponent = (datos) => {
-const[active, setActive] = useState("container-nav-item")
-const {data} = datos
-const path = window.location.pathname
-console.log("Clase desde data", data.route)
-console.log("Window URL", path)
-const claseActive = `container-nav-item active`;
-console.log(claseActive)
-function setingActive() {
-  if(path === data.url) return setActive(claseActive)
-}
-// let {name} = useParams()
-// console.log(name)
-// console.log(clase)
-// console.log(data)
-setingActive()
+  const { state } = useContext(AppContext)
+  const {data} = datos
+  const [clase, setClase] = useState()
+
+  function changeActive(){
+    if(state.route === "/entradas" && data.id === 1){
+      setClase("container-nav-item active")
+    } else if(state.route === "/platillos" && data.id === 2){
+      setClase("container-nav-item active")
+    } else if(state.route === "/aguachiles" && data.id === 3){
+      setClase("container-nav-item active")
+    } else if(state.route === "/bebidas" && data.id === 4){
+      setClase("container-nav-item active")
+    } else {
+      setClase("container-nav-item")
+    }
+  }
+useEffect(() => {
+  changeActive()
+},[clase])
+
   return (
-    <div className={claseActive}>
+    <div className={clase}>
       <a href={data.route}>
         <i className={data.className}></i>
         <p>{data.name}</p>
